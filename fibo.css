@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.field{
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 800px;
+    margin: 25px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title{
+
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: bold;
+    color: blue;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.sub-title{
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+}
+
+.answer{
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    align-self: center;
+}
+
+.pair{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-box{
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    align-self: center;
+
+    text-align: center;
+    vertical-align: middle;
+
+    font-size: 20px;
+
+}
+
+.context{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.next{
+    width: 100px;
+    height: 40px;
+
+
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.next:hover{
+    color: #fff;
+    background-color: dodgerblue;
+}
+
+.generate{
+    width: 200px;
+    height: 50px;
+
+
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.generate:hover{
+    color: #fff;
+    background-color: forestgreen;
+}
+
+.reset{
+    width: 100px;
+    height: 50px;
+
+    display: none;
+
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.reset:hover{
+    color: #fff;
+    background-color: red;
+}
+
+.mode{
+    display: none;
+}
+.seed{
+    display: none;
+}
+.numbers{
+    display: none;
+}
+.generate-answer{
+    display: none;
+}
+
+#answer-title{
+    display: none;
+}

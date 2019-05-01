@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LFG</title>
+
+    <link href="fibo.css" rel="stylesheet">
+
+</head>
+<body>
+<header class="title">Fibonacci generator with displacements</header>
+
+<div class="context">
+
+    <div class="field">
+        <h1 class="sub-title">Select your pair:</h1>
+
+        <div class="pair">
+            <input id="j" class="input-box" type="text" name="j" value="-- J --"><br>
+            <input id="k" class="input-box" type="text" name="k" value="-- K --"><br>
+        </div>
+        <button id="sendPair" class="next" type="button">NEXT</button>
+
+    </div>
+
+    <div class="mode">
+        <div class="field">
+            <h1 class="sub-title">Select your mod:</h1>
+            <input id="mod" class="input-box" type="text" name="mod" value="-- Mod --">
+            <button id="sendMod" class="next" type="button">NEXT</button>
+        </div>
+    </div>
+
+    <div class="seed">
+        <div class="field">
+            <h1 class="sub-title">Select your seed:</h1>
+            <input id="seed" class="input-box" type="text" name="seed" value="-- Seed --">
+            <button id="sendSeed" class="next" type="button">NEXT</button>
+        </div>
+    </div>
+
+    <div class="numbers">
+        <div class="field">
+            <h1 class="sub-title">Select the number of numbers to generate:</h1>
+            <input id="numbers" class="input-box" type="text" name="number" value="-- Numbers --">
+            <button id="sendNumbers" class="next" type="button">NEXT</button>
+        </div>
+    </div>
+
+    <div class="generate-answer">
+        <div class="field">
+            <button id="generateAnswer" class="generate" type="button">Generate numbers</button>
+            <h1 id="answer-title" class="sub-title">Answer:</h1>
+            <div id="answer" class="answer"></div>
+            <button id="reset" class="reset" type="button">Reset</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<script src="fibo.js"></script>
+
+
+</html>
